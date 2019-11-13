@@ -1,0 +1,21 @@
+\begin{thebibliography}{}
+
+\bibitem[Bennett ]{Bennett}
+Bennett, K.
+\newblock {Amnh no}.
+\newblock {\em Legacy}.
+
+\bibitem[Furda et~al. 2018]{Furda2018}
+Furda, A., Fidge, C., Zimmermann, O., Kelly, W., and Barros, A. (2018).
+\newblock {Migrating Enterprise Legacy Source Code to Microservices: On
+  Multitenancy, Statefulness, and Data Consistency}.
+\newblock {\em IEEE Software}, 35(3):63--72.
+
+\bibitem[O'Brien et~al. 2005]{OBrien2005}
+O'Brien, L., Smith, D., and Lewis, G. (2005).
+\newblock {Supporting migration to services using software architecture
+  reconstruction}.
+\newblock {\em Proceedings - 13th IEEE International Workshop on Software
+  Technology and Engineering Practice, STEP 2005}, 2005:81--91.
+
+\end{thebibliography}
