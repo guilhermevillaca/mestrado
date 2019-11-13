@@ -4,8 +4,6 @@
 \usepackage{graphicx,url}
 \usepackage[utf8]{inputenc}
 \usepackage[brazil]{babel}
-%\usepackage[latin1]{inputenc}  
-
      
 \sloppy
 
@@ -24,17 +22,19 @@ Cascavel -- PR -- Brazil
 \maketitle
 
 \begin{abstract}
-  to write.
+Migrating legacy systems through microservices has been a tendency to solve old problems faced during software development, such as scalability and maintenance. However, it is not simple to identify when these systems should migrate and what the consequences are. Unioeste Information Technology Center (NTI) has faced these problems in recent years, systems are not easily scalable and are difficult to maintain ...
 \end{abstract}
      
 \begin{resumo} 
-  Para Escrever.
+Migrar sistemas legados por microserviços tem sido uma tendência para resolver velhos problemas enfrentados durante o desenvolvimento de software, como escalabilidade e manutenção. Porém não é simples identificar quando estes sistemas devem migrar, e quais as consequências disso. O Núcleo de Tecnologia da Informação(NTI) da Unioeste tem enfrentado estes problemas nos últimos anos, os sistemas não são facilmente escaláveis e são de difícil manutenção...
 \end{resumo}
 
 
 \section{Introdução}
 
-Segundo \cite{Bennett} podemos definir sistemas legados como vitais para a organização e que não se sabe mais como manter ou melhorá-los. Estes sistemas foram desenvolvidos com a melhor tecnologia disponível no momento de sua concepção e que com o passar do tempo tornam-se superadas, o que requer melhorias. A modernização de sistemas legados é um desafio enfrentado por muitas organizações que desejam explorar novas tecnologias de computação em nuvem para atender às necessidades de alta escalabilidade e alta disponibilidade\cite{Furda2018}. Porém, explorar novas tecnologias pode não ser a principal razão para a modernização, pois sistemas legados podem conter códigos mal escritos de difícil manutenibilidade, pobre documentação, ou ainda erros desde a elicitação de requisitos. Há ainda uma análise que deve ser feita sobre estes sistemas para a reconstrução da arquitetura de software, uma área que teve um grande avanço nos últimos anos e que conta com um grande número de técnicas e métodos que foram desenvolvidos para este fim \cite{OBrien2005}.
+Segundo \cite{Bennett} podemos definir sistemas legados como vitais para a organização e que não se sabe mais como manter ou melhorá-los. Estes sistemas foram desenvolvidos com a melhor tecnologia disponível no momento de sua concepção e que com o passar do tempo tornaram-se superadas por tecnologias mais modernas, ágeis, versáteis e escaláveis. Outra característica destes sistemas é que eles são monolíticos, ou seja, todas as funcionalidades e códigos fonte do sistema são concentradas no mesmo projeto. A modernização de sistemas legados é um desafio enfrentado por muitas organizações que desejam explorar estas novas tecnologias para atender às necessidades de alta escalabilidade e alta disponibilidade\cite{Furda2018}. Porém, apenas explorar novas tecnologias pode não ser a principal razão para a modernização, pois sistemas legados podem conter códigos mal escritos de difícil manutenibilidade, pobre documentação, ou ainda erros desde a elicitação de requisitos.  \\
+O objetivo deste trabalho é analisar os sistemas desenvolvidos pelo Núcleo de Tecnologia da Informação (NTI) da Unioeste e verificar como pode ser resolvido os problemas enfrentados pelo setor. Atualmente no NTI existem mais de 30 sistemas em produção, destes em torno de 28 são sistemas WEB, desenvolvidos com as tecnologias JAVA (vRaptor), ExtJS, Angular. Substituir estas tecnologias não é necessariamente resolver o problema principal enfrentado hoje, que é a duplicação de códigos e/ou funcionalidades. Por isso uma das alternativas é a utilização de Microserviços que segundo \cite{Carvalho2019} muitas companhias tem adotado esta tecnologia  para modernizar sistemas legados monolíticos. Ainda segundo o autor, microserviços são serviços pequenos e autônomos que trabalham juntos. Seus beneficios são reduzir esforços para manutenção e evolução, maior disponibilidade de serviços, facilidade de inovação, entrega contínua, escalabilidade facilitada de partes com mais demanda, etc.
+
 
 
 
