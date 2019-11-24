@@ -1,20 +1,7 @@
 \begin{thebibliography}{}
 
-\bibitem[Bennett ]{Bennett}
-Bennett, K.
-\newblock {Amnh no}.
-\newblock {\em Legacy}.
-
-\bibitem[Carvalho et~al. 2019]{Carvalho2019}
-Carvalho, L., Garcia, A., Assun{\c{c}}{\~{a}}o, W. K.~G., Bonif{\'{a}}cio, R.,
-  Tizzei, L.~P., and Colanzi, T.~E. (2019).
-\newblock {Extraction of configurable and reusable microservices from legacy
-  systems}.
-
-\bibitem[Furda et~al. 2018]{Furda2018}
-Furda, A., Fidge, C., Zimmermann, O., Kelly, W., and Barros, A. (2018).
-\newblock {Migrating Enterprise Legacy Source Code to Microservices: On
-  Multitenancy, Statefulness, and Data Consistency}.
-\newblock {\em IEEE Software}, 35(3):63--72.
+\bibitem[Yang et~al. ]{Yang}
+Yang, X., Chen, L., Wang, X., and Cristoforo, J.
+\newblock {A Dual-Spiral Reengineering Model for Legacy System}.
 
 \end{thebibliography}
