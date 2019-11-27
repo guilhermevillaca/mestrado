@@ -1,12 +1,16 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.24)  26 NOV 2019 22:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.13)  27 NOV 2019 14:18
 entering extended mode
 **./sbc-template.tex
 (sbc-template.tex
-LaTeX2e <2018-12-01>
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\article.cls"
-Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\size12.clo"
-File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+LaTeX2e <2019-10-01>
+
+("C:\Users\guilherme.villaca\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\a
+rticle.cls"
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+
+("C:\Users\guilherme.villaca\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\s
+ize12.clo"
+File: size12.clo 2019/08/27 v1.4j Standard LaTeX file (size option)
 )
 \c@part=\count80
 \c@section=\count81
@@ -22,21 +26,26 @@ File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 ) (sbc-template.sty
 Package: sbc-template 2001/06/09
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/geometry\geometry.sty"
+("C:\Users\guilherme.villaca\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geomet
+ry\geometry.sty"
 Package: geometry 2018/04/16 v5.8 Page Geometry
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\keyval.sty"
+("C:\Users\guilherme.villaca\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphi
+cs\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ifpdf.sty"
+("C:\Users\guilherme.villaca\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ober
+diek\ifpdf.sty"
 Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ifvtex.sty"
+("C:\Users\guilherme.villaca\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ober
+diek\ifvtex.sty"
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/ifxetex\ifxetex.sty"
+("C:\Users\guilherme.villaca\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ifxe
+tex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count88
@@ -52,11 +61,14 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen110
 \Gm@dimlist=\toks15
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/geometry\geometry.cfg"))
-(C:\Users\Guilherme\AppData\Roaming\MiKTeX\2.9\tex/latex/caption\caption.sty
+("C:\Users\guilherme.villaca\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geomet
+ry\geometry.cfg"))
+("C:\Users\guilherme.villaca\AppData\Local\Programs\MiKTeX 2.9\tex/latex/captio
+n\caption.sty"
 Package: caption 2019/09/01 v3.3d Customizing captions (AR)
 
-(C:\Users\Guilherme\AppData\Roaming\MiKTeX\2.9\tex/latex/caption\caption3.sty
+("C:\Users\guilherme.villaca\AppData\Local\Programs\MiKTeX 2.9\tex/latex/captio
+n\caption3.sty"
 Package: caption3 2019/09/01 v1.8d caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 64.
 \captionmargin=\dimen111
@@ -69,12 +81,15 @@ Package caption3 Info: TeX engine: e-TeX on input line 64.
 )
 \c@caption@flags=\count91
 \c@ContinuedFloat=\count92
-) ("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\times.sty"
+)
+("C:\Users\guilherme.villaca\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss
+\times.sty"
 Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
 \c@instn=\count93
 
-(C:\Users\Guilherme\AppData\Roaming\MiKTeX\2.9\tex/latex/titlesec\titlesec.sty
+("C:\Users\guilherme.villaca\AppData\Local\Programs\MiKTeX 2.9\tex/latex/titles
+ec\titlesec.sty"
 Package: titlesec 2019/10/16 v2.13 Sectioning titles
 \ttl@box=\box27
 \beforetitleunit=\skip43
@@ -85,67 +100,82 @@ Package: titlesec 2019/10/16 v2.13 Sectioning titles
 \titlewidth=\dimen120
 \titlewidthlast=\dimen121
 \titlewidthfirst=\dimen122
-) (C:\Users\Guilherme\AppData\Roaming\MiKTeX\2.9\tex/latex/etoolbox\etoolbox.st
-y
+)
+("C:\Users\guilherme.villaca\AppData\Local\Programs\MiKTeX 2.9\tex/latex/etoolb
+ox\etoolbox.sty"
 Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count94
-)) ("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphicx.sty"
+))
+("C:\Users\guilherme.villaca\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphi
+cs\graphicx.sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphics.sty"
-Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+("C:\Users\guilherme.villaca\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphi
+cs\graphics.sty"
+Package: graphics 2019/07/20 v1.3b Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+("C:\Users\guilherme.villaca\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphi
+cs\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\graphics.cfg"
+("C:\Users\guilherme.villaca\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphi
+cs-cfg\graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 99.
+Package graphics Info: Driver file: pdftex.def on input line 105.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-def\pdftex.def"
+("C:\Users\guilherme.villaca\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphi
+cs-def\pdftex.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen123
 \Gin@req@width=\dimen124
 )
-(C:\Users\Guilherme\AppData\Roaming\MiKTeX\2.9\tex/latex/url\url.sty
+("C:\Users\guilherme.villaca\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\ur
+l.sty"
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\inputenc.sty"
+("C:\Users\guilherme.villaca\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\i
+nputenc.sty"
 Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks17
 \inpenc@posthook=\toks18
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/babel\babel.sty"
-Package: babel 2019/07/19 3.33 The Babel package
+("C:\Users\guilherme.villaca\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babe
+l\babel.sty"
+Package: babel 2019/09/27 3.34 The Babel package
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/babel\switch.def"
-File: switch.def 2019/07/19 3.33 Babel switching mechanism
+("C:\Users\guilherme.villaca\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babe
+l\switch.def"
+File: switch.def 2019/09/27 3.34 Babel switching mechanism
 )
 *************************************
 * Local config file bblopts.cfg used
 *
-(C:\Users\Guilherme\AppData\Roaming\MiKTeX\2.9\tex/latex/arabi\bblopts.cfg
+
+("C:\Users\guilherme.villaca\AppData\Local\Programs\MiKTeX 2.9\tex/latex/arabi\
+bblopts.cfg"
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-(C:\Users\Guilherme\AppData\Roaming\MiKTeX\2.9\tex/latex/babel-portuges\portuge
-s.ldf
+("C:\Users\guilherme.villaca\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-
+portuges\portuges.ldf"
 Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
- ("C:\Program Files\MiKTeX 2.9\tex/generic/babel\babel.def"
-File: babel.def 2019/07/19 3.33 Babel common definitions
+
+("C:\Users\guilherme.villaca\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babe
+l\babel.def"
+File: babel.def 2019/09/27 3.34 Babel common definitions
 \babel@savecnt=\count95
 \U@D=\dimen125
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/babel\txtbabel.def")
+("C:\Users\guilherme.villaca\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babe
+l\txtbabel.def")
 \bbl@dirlevel=\count96
 )
 \l@brazil = a dialect from \language\l@portuges 
 Package babel Info: Making " an active character on input line 145.
-))
-(sbc-template.aux)
+)) (sbc-template.aux)
 \openout1 = `sbc-template.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
@@ -160,8 +190,11 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 20.
- ("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\ot1ptm.fd"
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 2
+0.
+
+("C:\Users\guilherme.villaca\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss
+\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 *geometry* driver: auto-detecting
@@ -201,8 +234,8 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
-(C:\Users\Guilherme\AppData\Roaming\MiKTeX\2.9\tex/context/base/mkii\supp-pdf.m
-kii
+("C:\Users\guilherme.villaca\AppData\Local\Programs\MiKTeX 2.9\tex/context/base
+/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count97
 \scratchdimen=\dimen126
@@ -215,35 +248,46 @@ kii
 \MPnumerator=\count101
 \makeMPintoPDFobject=\count102
 \everyMPtoPDFconversion=\toks20
-) ("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-base.sty"
+)
+("C:\Users\guilherme.villaca\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdi
+ek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\infwarerr.sty"
+("C:\Users\guilherme.villaca\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ober
+diek\infwarerr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\grfext.sty"
+("C:\Users\guilherme.villaca\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdi
+ek\grfext.sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\kvdefinekeys.sty"
+("C:\Users\guilherme.villaca\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ober
+diek\kvdefinekeys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ltxcmds.sty"
+("C:\Users\guilherme.villaca\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ober
+diek\ltxcmds.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )))
-("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\kvoptions.sty"
+("C:\Users\guilherme.villaca\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdi
+ek\kvoptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\kvsetkeys.sty"
+("C:\Users\guilherme.villaca\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ober
+diek\kvsetkeys.sty"
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\etexcmds.sty"
+("C:\Users\guilherme.villaca\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ober
+diek\etexcmds.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ifluatex.sty"
+("C:\Users\guilherme.villaca\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ober
+diek\ifluatex.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 ))))
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\pdftexcmds.sty"
+("C:\Users\guilherme.villaca\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ober
+diek\pdftexcmds.sty"
 Package: pdftexcmds 2019/07/25 v0.30 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
@@ -268,37 +312,70 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 22.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 22.
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 22.
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 2
+2.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\ot1pcr.fd"
+("C:\Users\guilherme.villaca\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss
+\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 24.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <13> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 33.
- [1
 
-{C:/Users/Guilherme/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (sbc-te
-mplate.bbl
-[2]) [3] (sbc-template.aux) ) 
+Underfull \hbox (badness 1789) in paragraph at lines 29--30
+[]\OT1/ptm/m/it/12 Migrar sis-te-mas mo-nol[]ticos para microservi[]os tem sid
+o uma
+ []
+
+
+Underfull \hbox (badness 2334) in paragraph at lines 32--33
+[]\OT1/ptm/b/n/12 Keywords: \OT1/ptm/m/n/12 mo-nol[]ticos, microservi[]os, re[
+]uso de soft-ware, re-en-ge-nha-ria,
+ []
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <13> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 35.
+
+LaTeX Warning: Citation `Carvalho' on page 1 undefined on input line 43.
+
+[1
+
+{C:/Users/guilherme.villaca/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 5
+6.
+
+("C:\Users\guilherme.villaca\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss
+\omsptm.fd"
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 56.
+ [2] (sbc-template.bbl) [3] (sbc-template.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 4440 strings out of 492895
- 66517 string characters out of 3133467
- 153036 words of memory out of 3000000
- 8290 multiletter control sequences out of 15000+200000
+ 4524 strings out of 492452
+ 70190 string characters out of 3114459
+ 156136 words of memory out of 3000000
+ 8814 multiletter control sequences out of 15000+200000
  18188 words of font info for 40 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,8n,40p,847b,312s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/
-8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/
-MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/
-utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on sbc-template.pdf (3 pages, 82131 bytes).
+ 46i,8n,46p,847b,314s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/guilherme.villaca/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips
+/base/8r.enc}<C:/Users/guilherme.villaca/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/guilherme.villaca/AppData/Local/P
+rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/guilherm
+e.villaca/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb>
+<C:/Users/guilherme.villaca/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/t
+imes/utmb8a.pfb><C:/Users/guilherme.villaca/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/urw/times/utmbi8a.pfb><C:/Users/guilherme.villaca/AppData/Local/Prog
+rams/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/guilherme.villaca/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on sbc-template.pdf (3 pages, 93392 bytes).
 PDF statistics:
- 37 PDF objects out of 1000 (max. 8388607)
+ 41 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

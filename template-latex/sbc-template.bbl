@@ -1,10 +1,5 @@
 \begin{thebibliography}{}
 
-\bibitem[Carvalho et~al. ]{Carvalho}
-Carvalho, L., Garcia, A., and Assun{\c{c}}{\~{a}}o, W. K.~G.
-\newblock {Extraction of Configurable and Reusable Microservices from Legacy
-  Systems An Exploratory Study.pdf}.
-
 \bibitem[Dragoni et~al. ]{Dragoni}
 Dragoni, N., Giallorenzo, S., Lafuente, A.~L., and Mazzara, M.
 \newblock {Microservices : yesterday , today , and tomorrow}.
@@ -23,6 +18,19 @@ Ibrahim, H., Far, B.~H., and Eberlein, A. (2009).
 \newblock {Scalability Improvement in Software Evaluation Methodologies}.
 \newblock {\em 2009 IEEE International Conference on Information Reuse {\&}
   Integration}, pages 236--241.
+
+\bibitem[Kamimura et~al. 2019]{Kamimura2019a}
+Kamimura, M., Yano, K., Hatano, T., and Matsuo, A. (2019).
+\newblock {Extracting Candidates of Microservices from Monolithic Application
+  Code}.
+\newblock {\em Proceedings - Asia-Pacific Software Engineering Conference,
+  APSEC}, 2018-Decem:571--580.
+
+\bibitem[Kholy and Fatatry 2019]{Kholy2019}
+Kholy, M.~E. and Fatatry, A.~E. (2019).
+\newblock {Framework for Interaction between Databases and Microservice
+  Architecture}.
+\newblock {\em IT Professional}, 21(5):57--63.
 
 \bibitem[Pan 1999]{pan1999}
 Pan, J. (1999).
