@@ -34,29 +34,27 @@ Migrar sistemas legados por microserviços tem sido uma tendência para resolver
 
 %maintainability ingles para manutenibilidade
 
-A tecnologia de software baseado em reúso é um processo de design de software com o propósito de reúso que pode resultar em redução de tempo e custos de desenvolvimento além de aumentar a flexibilidade, manutenibilidade e confiabilidade do software. A principal razão para pensar em reúso é evitar trabalhos repetidos no desenvolvimento de software e usar do conhecimento e experiência adquiridos previamente e concentrar os esforços em partes mais críticas da aplicação. Seu foco é não necessitar mais desenvolver um software do zero \cite{Yang}.  
+A tecnologia de software baseado em reúso é um processo de design de software que pode resultar em redução de tempo e custos de desenvolvimento além de aumentar a flexibilidade, manutenibilidade e confiabilidade do software. A principal razão para pensar em reúso é evitar trabalhos repetidos no desenvolvimento de software e usar do conhecimento e experiência adquiridos previamente e concentrar os esforços em partes mais críticas da aplicação. Seu foco é não necessitar mais desenvolver um software do zero \cite{Yang}.  
 \\
-Reengenharia é uma forma para atingir o reuso de software e para entender os conceitos ocultos no domínio da aplicação. Seu objetivo é obter e manter o conhecimento incluído nos sistemas legados, usando-o como base para a continuidade e evolução estruturada do sistema. O código legado tem lógicas programadas, decisões de projeto, requisitos de usuários e regras de negócio que podem ser recuperadas e reconstruídas sem perder a semântica \cite{Garcia2004}
+Reengenharia é uma forma para atingir o reuso de software e para entender os conceitos ocultos no domínio da aplicação. Seu objetivo é obter e manter o conhecimento incluído nos sistemas legados, usando-o como base para a continuidade e evolução estruturada do sistema. O código legado tem lógicas programadas, decisões de projeto, requisitos de usuários e regras de negócio que podem ser recuperadas e reconstruídas sem perder a semântica \cite{Garcia2004a}
 \\
 O desenvolvimento de sistemas pelas organizações segue um padrão, onde o desenvolvimento começa pela solução especifica de um problema e a partir daí novas soluções são adicionadas, formando um ou mais sistemas maiores e complexos. Com o passar dos anos esses sistemas começam a gerar problemas para a equipe de desenvolvedores. Podemos citar: 
-\\Manutenibilidade: Que é a capacidade de um produto de software ser modificado, de acordo com a ISO 9126. Se um software não for construído com capacidade para lidar com a demanda de constantes mudanças, certamente irá consumir mais recursos e tornar a manutenção uma tarefa tediosa \cite{Velmourougan2014};
+
+%essa parte entra no desenvolvimento
+\\Manutenibilidade: Que é a capacidade de um produto de software ser modificado. Se um software não for construído com capacidade para lidar com a demanda de constantes mudanças, certamente irá consumir mais recursos e tornar a manutenção uma tarefa tediosa \cite{Velmourougan2014};
 \\Escalabilidade: É a capacidade de um software para acomodar crescimento em termos de tamanho e complexidade do problema e em um segundo aspecto está relacionado a uma medida de eficácia quando usada em um contexto maior em escopo e complexidade do que o contexto para o qual foi originalmente projetado. \cite{Ibrahim2009}
-\\Confiabilidade\
+\\Confiabilidade: Capacidade do sistema estar livre de falhas \cite{pan1999}. Não importa o tamanho do erro ou o quanto ele afeta o sistema, corrigir um erro de forma equivocada pode gerar novos problemas.
 \\Qualidade
 \\Documentação pobre ou mal feita: pode gerar problemas futuros, em relação a origem ou rastreabilidade de um requisito, por que, quando como um requisito surgiu.
 
-falar que estes sistemas desenvolvidos sao sistemas monoliticos \cite{Dragoni2017}
+O jeito tradicional de desenvolvimento resulta em sistemas monoliticos que é um sistema composto por módulos que não são independentes da aplicação a que pertencem \cite{Dragoni}
 
-falar da origem SOA e que a partir daí surgiu microserviços
+Algumas abordagens foram propostas para resolver estes problemas clássicos dos sistemas monolíticos, como o SOA (Service Oriented Architeture) que foi algo surgido na academia, porém sua implementação não era tão simples e acabou não sendo adotado pela indústria. Alguns anos atrás surgiu algo similar ao SOA, os microserviços porém dessa vez proposto pela indústria
 
-Este cenário com estes problemas relatados podem ser resolvidos de diversas maneiras, neste trabalho iremos propor uma solução baseada em microserviços, a migração de um sistema monolitico tem se tornado bastante comum na indústria, segundo \cite{Carvalho2019} alguns desenvolvedores até atribuem a mudança pelo hype ou seja, por esta abordagem estar na moda e não querer ficar pra trás.
+Este cenário com estes problemas relatados podem ser resolvidos de diversas maneiras, neste trabalho iremos propor uma solução baseada em microserviços, a migração de um sistema monolitico tem se tornado bastante comum na indústria, segundo \cite{Carvalho} alguns desenvolvedores até atribuem a mudança pelo hype ou seja, por esta abordagem estar na moda e não querer ficar pra trás.
 
 
 O objetivo deste trabalho é analisar os sistemas desenvolvidos pelo Núcleo de Tecnologia da Informação (NTI) da Unioeste e verificar como pode ser resolvido os problemas enfrentados pelo setor. Atualmente no NTI existem mais de 30 sistemas em produção, destes em torno de 28 são sistemas WEB, 
-
-
-dragoni define uma aplicação monolitica como um sistema composto por módulos que não são independentes da aplicação a que pertencem
-
 
 
 \section{Desenvolvimento} \label{sec:firstpage}

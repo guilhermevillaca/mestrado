@@ -1,28 +1,43 @@
 \begin{thebibliography}{}
 
-\bibitem[Carvalho et~al. 2019]{Carvalho2019}
-Carvalho, L., Garcia, A., Assun{\c{c}}{\~{a}}o, W. K.~G., Bonif{\'{a}}cio, R.,
-  Tizzei, L.~P., and Colanzi, T.~E. (2019).
-\newblock {Extraction of configurable and reusable microservices from legacy
-  systems}.
+\bibitem[Carvalho et~al. ]{Carvalho}
+Carvalho, L., Garcia, A., and Assun{\c{c}}{\~{a}}o, W. K.~G.
+\newblock {Extraction of Configurable and Reusable Microservices from Legacy
+  Systems An Exploratory Study.pdf}.
 
-\bibitem[Dragoni et~al. 2017]{Dragoni2017}
-Dragoni, N., Giallorenzo, S., Lafuente, A.~L., Mazzara, M., Montesi, F.,
-  Mustafin, R., and Safina, L. (2017).
-\newblock {Microservices: Yesterday, today, and tomorrow}.
-\newblock {\em Present and Ulterior Software Engineering}, pages 195--216.
+\bibitem[Dragoni et~al. ]{Dragoni}
+Dragoni, N., Giallorenzo, S., Lafuente, A.~L., and Mazzara, M.
+\newblock {Microservices : yesterday , today , and tomorrow}.
+\newblock pages 1--17.
+
+\bibitem[Garcia et~al. 2004]{Garcia2004a}
+Garcia, V.~C., Lucr{\'{e}}dio, D., {Do Prado}, A.~F., {De Almeida}, E.~S., and
+  Alvaro, A. (2004).
+\newblock {Using reengineering and aspect-based techniques to retrieve
+  knowledge embedded in object-oriented legacy system}.
+\newblock {\em Proceedings of the 2004 IEEE International Conference on
+  Information Reuse and Integration, IRI-2004}, pages 30--35.
 
 \bibitem[Ibrahim et~al. 2009]{Ibrahim2009}
 Ibrahim, H., Far, B.~H., and Eberlein, A. (2009).
-\newblock {Scalability improvement in software evaluation methodologies}.
-\newblock {\em 2009 IEEE International Conference on Information Reuse and
-  Integration, IRI 2009}, pages 236--241.
+\newblock {Scalability Improvement in Software Evaluation Methodologies}.
+\newblock {\em 2009 IEEE International Conference on Information Reuse {\&}
+  Integration}, pages 236--241.
+
+\bibitem[Pan 1999]{pan1999}
+Pan, J. (1999).
+\newblock {Software Reliability}.
+\newblock pages 1--9.
 
 \bibitem[Velmourougan et~al. 2014]{Velmourougan2014}
 Velmourougan, S., Dhavachelvan, P., Baskaran, R., and Ravikumar, B. (2014).
-\newblock {Software development life cycle model to improve maintainability of
+\newblock {Software development Life cycle model to improve maintainability of
   software applications}.
-\newblock {\em Proceedings - 2014 4th International Conference on Advances in
-  Computing and Communications, ICACC 2014}, pages 270--273.
+\newblock {\em 2014 Fourth International Conference on Advances in Computing
+  and Communications}, pages 270--273.
+
+\bibitem[Yang et~al. ]{Yang}
+Yang, X., Chen, L., Wang, X., and Cristoforo, J.
+\newblock {A Dual-Spiral Reengineering Model for Legacy System}.
 
 \end{thebibliography}
