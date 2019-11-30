@@ -1,9 +1,17 @@
 \begin{thebibliography}{}
 
-\bibitem[Dragoni et~al. ]{Dragoni}
-Dragoni, N., Giallorenzo, S., Lafuente, A.~L., and Mazzara, M.
-\newblock {Microservices : yesterday , today , and tomorrow}.
-\newblock pages 1--17.
+\bibitem[Carvalho et~al. 2019]{Carvalho2019}
+Carvalho, L., Garcia, A., Assun{\c{c}}{\~{a}}o, W. K.~G., Bonif{\'{a}}cio, R.,
+  Tizzei, L.~P., and Colanzi, T.~E. (2019).
+\newblock {Extraction of configurable and reusable microservices from legacy
+  systems: An Exploratory Study}.
+\newblock pages 1--6.
+
+\bibitem[Dragoni et~al. 2017]{Dragoni2017}
+Dragoni, N., Giallorenzo, S., Lafuente, A.~L., Mazzara, M., Montesi, F.,
+  Mustafin, R., and Safina, L. (2017).
+\newblock {Microservices: Yesterday, today, and tomorrow}.
+\newblock {\em Present and Ulterior Software Engineering}, pages 195--216.
 
 \bibitem[Garcia et~al. 2004]{Garcia2004a}
 Garcia, V.~C., Lucr{\'{e}}dio, D., {Do Prado}, A.~F., {De Almeida}, E.~S., and

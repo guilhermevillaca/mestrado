@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.13)  27 NOV 2019 14:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.13)  28 NOV 2019 11:26
 entering extended mode
 **./sbc-template.tex
 (sbc-template.tex
@@ -335,9 +335,6 @@ Underfull \hbox (badness 2334) in paragraph at lines 32--33
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <13> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 35.
-
-LaTeX Warning: Citation `Carvalho' on page 1 undefined on input line 43.
-
 [1
 
 {C:/Users/guilherme.villaca/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
@@ -350,32 +347,29 @@ File: omsptm.fd
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 56.
- [2] (sbc-template.bbl) [3] (sbc-template.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+ [2] (sbc-template.bbl [3]) [4] (sbc-template.aux) ) 
 Here is how much of TeX's memory you used:
- 4524 strings out of 492452
- 70190 string characters out of 3114459
- 156136 words of memory out of 3000000
- 8814 multiletter control sequences out of 15000+200000
+ 4525 strings out of 492452
+ 70208 string characters out of 3114459
+ 156163 words of memory out of 3000000
+ 8815 multiletter control sequences out of 15000+200000
  18188 words of font info for 40 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  46i,8n,46p,847b,314s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/guilherme.villaca/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips
-/base/8r.enc}<C:/Users/guilherme.villaca/AppData/Local/Programs/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/guilherme.villaca/AppData/Local/P
-rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/guilherm
-e.villaca/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb>
-<C:/Users/guilherme.villaca/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/t
-imes/utmb8a.pfb><C:/Users/guilherme.villaca/AppData/Local/Programs/MiKTeX 2.9/f
-onts/type1/urw/times/utmbi8a.pfb><C:/Users/guilherme.villaca/AppData/Local/Prog
-rams/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/guilherme.villaca/Ap
-pData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on sbc-template.pdf (3 pages, 93392 bytes).
+{C:/Users/guilherme.villaca
+/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Users/guilhe
+rme.villaca/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+r8.pfb><C:/Users/guilherme.villaca/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmsy10.pfb><C:/Users/guilherme.villaca/AppData/Local/Progr
+ams/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/guilherme.villaca/A
+ppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/gui
+lherme.villaca/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.
+pfb><C:/Users/guilherme.villaca/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/u
+rw/times/utmr8a.pfb><C:/Users/guilherme.villaca/AppData/Local/Programs/MiKTeX 2
+.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on sbc-template.pdf (4 pages, 96440 bytes).
 PDF statistics:
- 41 PDF objects out of 1000 (max. 8388607)
+ 44 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
