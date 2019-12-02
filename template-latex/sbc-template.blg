@@ -3,6 +3,9 @@ The style file: sbc.bst
 Database file #1: sbc-template.bib
 Warning--empty journal in Carvalho2019
 Warning--empty journal in pan1999
+Warning--empty publisher in PERRUNESON2012
+Warning--empty year in Taibi
+Warning--empty journal in Taibi
 Warning--empty year in Yang
 Warning--empty journal in Yang
-(There were 4 warnings)
+(There were 7 warnings)

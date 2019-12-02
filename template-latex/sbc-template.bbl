@@ -45,6 +45,22 @@ Pan, J. (1999).
 \newblock {Software Reliability}.
 \newblock pages 1--9.
 
+\bibitem[Richter et~al. 2017]{Richter2017a}
+Richter, D., Konrad, M., Utecht, K., and Polze, A. (2017).
+\newblock {Highly-Available Applications on Unreliable Infrastructure:
+  Microservice Architectures in Practice}.
+\newblock {\em Proceedings - 2017 IEEE International Conference on Software
+  Quality, Reliability and Security Companion, QRS-C 2017}, pages 130--137.
+
+\bibitem[Runeson et~al. 2012]{PERRUNESON2012}
+Runeson, P., Host, M., Rainer, A., and Regnell, B. (2012).
+\newblock {\em {in Software in Software}}.
+
+\bibitem[Taibi et~al. ]{Taibi}
+Taibi, D., Lenarduzzi, V., and Pahl, C.
+\newblock {Processes , Motivations , and Issues for Migrating to Microservices
+  Architectures : An Empirical Investigation}.
+
 \bibitem[Velmourougan et~al. 2014]{Velmourougan2014}
 Velmourougan, S., Dhavachelvan, P., Baskaran, R., and Ravikumar, B. (2014).
 \newblock {Software development Life cycle model to improve maintainability of
