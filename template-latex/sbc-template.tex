@@ -59,17 +59,19 @@ O desenvolvimento de sistemas pelas organizações geralmente segue um padrão o
 \end{itemize}
 
 %a migração para microserviços pode trazer alguns beneficios
-%pontos positivos, melhorar manutenibilidade, uso de novas tecnologias, delegação de responsabilidades, custos a longo prazo %tendem a ser um beneficio
-% pontos negativos também
-%banco de dados é um ponto negativo, resistencia a mudanças da equipe, custos iniciais maiores
-
-A primeira abordagem da utilização de microserviços surgiu na indústria, e o modo aplicado não é o mesmo hoje recomendado pela comunidade científica. Uma das principais diferenças está em como gerenciar a base de dados. Um sistema monolítico, geralmente, tem uma base de dados e o estado da arte sugere a separação dessa base onde cada microserviço tenha a sua própria base de dados. Portanto, ao migrar um monolítico para microserviços, deve-se também migrar a base de dados. Cada microserviço deve ser responsável pelos seus próprios dados, ou seja, independentes para que qualquer mudança não afete o sistema todo \cite{Kholy2019}. 
-
-Segundo \cite{Taibi} uma das motivações para a migração é a delegação de responsabilidades, pois microserviços podem ser desenvolvidos por times de desenvolvedores diferentes e independentes, reduzindo sobrecarga de comunicação e necessidade de coordenação entre as equipes. Ainda de acordo com Taibi, apesar dos custos iniciais do desenvolvimento com microserviços serem maiores, a longo prazo esse custo é menor, se comparado com sistemas monolíticos, devido a redução, principalmente, de manutenibilidade. Taibi destaca ainda haver uma resistência em equipes de desenvolvimento, isso ocorre devido a dificuldade em aceitar mudanças, seja de arquitetura e tecnologias, ou ainda a apego ao software desenvolvido.
+%pontos positivos, melhorar manutenibilidade, uso de novas tecnologias, delegação de responsabilidades, custos a longo prazo
+Algumas das motivações para migração de sistemas monoliticos para microserviços é a delegação de responsabilidades, pois microserviços podem ser desenvolvidos por times de desenvolvedores diferentes e independentes, reduzindo sobrecarga de comunicação e necessidade de coordenação entre as equipes \cite{Taibi}. Ainda de acordo com \cite{Taibi}, apesar dos custos iniciais do desenvolvimento com microserviços serem maiores, a longo prazo esse custo é menor, se comparado com sistemas monolíticos, devido a redução, principalmente, de manutenibilidade. 
 
 Um outro benefício na utilização de microserviços é a possibilidade de utilizar novas tecnologias, Com serviços independentes, não importa como esse serviço é implementado, portanto é possível escolher diferentes tecnologias que se adequem às necessidades especificas daquela funcionalidade. Isso também se aplica a banco de dados. Não há necessidade de se prender a uma tecnologia \cite{Richter2017a}.
 
-%problemas que sreão ocasionados se tentar mudar, resistencia
+%tendem a ser um beneficio
+% pontos negativos também
+%banco de dados é um ponto negativo, resistencia a mudanças da equipe, custos iniciais maiores
+
+Um sistema monolítico, geralmente, tem uma base de dados e a recomendação é a separação dessa base onde cada microserviço tenha a sua própria base de dados. Portanto, ao migrar um monolítico para microserviços, deve-se também migrar a base de dados. Cada microserviço deve ser responsável pelos seus próprios dados, ou seja, independentes para que qualquer mudança não afete o sistema todo \cite{Kholy2019}. Mesmo que uma entidade seja comum a dois ou mais microserviços, ainda assim pode haver diferenças entre elas, o que corrobora a necessidade de manter a separação.
+
+É comum haver uma resistência em equipes de desenvolvimento, isso ocorre devido a dificuldade em aceitar mudanças, seja de arquitetura e tecnologias, ou ainda a apego ao software desenvolvido \cite{Taibi}.
+
 
 \subsection{Trabalhos Relacionados}
 %trabalhos relacionados

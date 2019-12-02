@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.13)  2 DEC 2019 13:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.13)  2 DEC 2019 13:50
 entering extended mode
 **./sbc-template.tex
 (sbc-template.tex
@@ -335,8 +335,14 @@ File: omsptm.fd
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 55.
- [2]
-Underfull \hbox (badness 1616) in paragraph at lines 76--81
+
+Underfull \hbox (badness 6741) in paragraph at lines 63--64
+[]\OT1/ptm/m/n/12 Algumas das motiva[][]oes para migra[][]ao de sis-te-mas mo-n
+o-li-ti-cos para
+ []
+
+[2]
+Underfull \hbox (badness 1616) in paragraph at lines 78--83
 \OT1/ptm/m/n/12 Existem al-guns tra-ba-lhos que fo-ca-ram na migra[][]ao de sis
 -te-mas mo-nol[]ticos pra
  []
@@ -361,7 +367,7 @@ herme.villaca/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.p
 fb><C:/Users/guilherme.villaca/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/ur
 w/times/utmr8a.pfb><C:/Users/guilherme.villaca/AppData/Local/Programs/MiKTeX 2.
 9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on sbc-template.pdf (5 pages, 99338 bytes).
+Output written on sbc-template.pdf (5 pages, 99286 bytes).
 PDF statistics:
  47 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
