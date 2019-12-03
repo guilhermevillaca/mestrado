@@ -1,5 +1,11 @@
 \begin{thebibliography}{}
 
+\bibitem[Balalaie et~al. 2018]{Balalaie2018}
+Balalaie, A., Heydarnoori, A., Jamshidi, P., Tamburri, D.~A., and Lynn, T.
+  (2018).
+\newblock {Microservices migration patterns}.
+\newblock {\em Software - Practice and Experience}, 48(11):2019--2042.
+
 \bibitem[Carvalho et~al. 2019]{Carvalho2019}
 Carvalho, L., Garcia, A., Assun{\c{c}}{\~{a}}o, W. K.~G., Bonif{\'{a}}cio, R.,
   Tizzei, L.~P., and Colanzi, T.~E. (2019).

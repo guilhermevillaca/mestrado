@@ -49,6 +49,7 @@ O objetivo deste trabalho é verificar como seria a migração de sistemas monol
 %%revisão bibliográfica
 \subsection{Revisão Bibliográfica}
 
+\subsubsection{Problemas comuns em Sistemas Monolíticos} 
 O desenvolvimento de sistemas pelas organizações geralmente segue um padrão onde o desenvolvimento começa pela solução específica de um problema e a partir daí novas soluções podem ser adicionadas, formando um ou mais sistemas maiores e complexos. Com o passar dos anos estes sistemas podem gerar diversos problemas para a equipe de desenvolvedores. Alguns dos principais problemas são:
 %essa parte entra no desenvolvimento
 \begin{itemize}
@@ -60,17 +61,20 @@ O desenvolvimento de sistemas pelas organizações geralmente segue um padrão o
 
 %a migração para microserviços pode trazer alguns beneficios
 %pontos positivos, melhorar manutenibilidade, uso de novas tecnologias, delegação de responsabilidades, custos a longo prazo
-Algumas das motivações para migração de sistemas monoliticos para microserviços é a delegação de responsabilidades, pois microserviços podem ser desenvolvidos por times de desenvolvedores diferentes e independentes, reduzindo sobrecarga de comunicação e necessidade de coordenação entre as equipes \cite{Taibi}. Ainda de acordo com \cite{Taibi}, apesar dos custos iniciais do desenvolvimento com microserviços serem maiores, a longo prazo esse custo é menor, se comparado com sistemas monolíticos, devido a redução, principalmente, de manutenibilidade. 
 
-Um outro benefício na utilização de microserviços é a possibilidade de utilizar novas tecnologias, Com serviços independentes, não importa como esse serviço é implementado, portanto é possível escolher diferentes tecnologias que se adequem às necessidades especificas daquela funcionalidade. Isso também se aplica a banco de dados. Não há necessidade de se prender a uma tecnologia \cite{Richter2017a}.
+\subsubsection{Benefícios Microserviços}
+Além de resolver os problemas citados acima, a adoção de microsserviços trás alguns outros benefícios como \textbf{delegação de responsabilidades} já que microserviços podem ser desenvolvidos por times de desenvolvedores diferentes e independentes, reduzindo sobrecarga de comunicação e necessidade de coordenação entre as equipes \cite{Taibi}; 
+\\
+\textbf{Diminuição de Custos}: segundo \cite{Taibi}, apesar dos custos iniciais do desenvolvimento com microserviços serem maiores, a longo prazo esse custo é menor, se comparado com sistemas monolíticos, devido a redução, principalmente, de manutenibilidade; 
+\\
+\textbf{Novas tecnologias} pois com serviços independentes, não importa como esse serviço é implementado, portanto é possível escolher diferentes tecnologias que se adequem às necessidades especificas daquela funcionalidade. Isso também se aplica a banco de dados. Não há necessidade de se prender a uma tecnologia \cite{Richter2017a}. 
+%por no slide tolerancia a falhas como beneficios=confiabilidade.	
 
-%tendem a ser um beneficio
-% pontos negativos também
+
 %banco de dados é um ponto negativo, resistencia a mudanças da equipe, custos iniciais maiores
-
-Um sistema monolítico, geralmente, tem uma base de dados e a recomendação é a separação dessa base onde cada microserviço tenha a sua própria base de dados. Portanto, ao migrar um monolítico para microserviços, deve-se também migrar a base de dados. Cada microserviço deve ser responsável pelos seus próprios dados, ou seja, independentes para que qualquer mudança não afete o sistema todo \cite{Kholy2019}. Mesmo que uma entidade seja comum a dois ou mais microserviços, ainda assim pode haver diferenças entre elas, o que corrobora a necessidade de manter a separação.
-
-É comum haver uma resistência em equipes de desenvolvimento, isso ocorre devido a dificuldade em aceitar mudanças, seja de arquitetura e tecnologias, ou ainda a apego ao software desenvolvido \cite{Taibi}.
+\subsubsection{Riscos Microserviços}
+A utilização de microsserviços também trás alguns riscos consideráveis como: lidar com a base de dados é um desafio principalmente em ambientes com serviços críticos. Em um típico sistema monolítico, a base de dados segue esta arquitetura. Quando o foco é microserviços, cada serviço deve ser independente, responsável pelos seus próprios dados para que qualquer mudança não afete o sistema todo \cite{Kholy2019}. Mesmo que uma entidade seja comum a dois ou mais microserviços, ainda assim pode haver diferenças entre elas, o que apoia a necessidade de separação. É comum haver uma resistência em equipes de desenvolvimento, isso ocorre devido a dificuldade em aceitar mudanças, seja de arquitetura e tecnologias, ou ainda a apego ao software desenvolvido \cite{Taibi}. 
+\\Outro risco se refere a custos iniciais maiores, mesmo que a longo prazo seja vantajoso, em um primeiro momento o investimento necessário pode ser uma barreira, pois não só é preciso investimento em infra-estrutura, como também pode ser essencial uma reestruturação na equipe de desenvolvimento \cite{Taibi}.
 
 
 \subsection{Trabalhos Relacionados}
@@ -78,6 +82,7 @@ Um sistema monolítico, geralmente, tem uma base de dados e a recomendação é 
 Existem alguns trabalhos que focaram na migração de sistemas monolíticos para microserviços.
 \\Na dissertação "Um Guia Para Apoiar a Migração de Sistemas de Software Legados Para Arquitetura Baseada em Microseviços"\hspace{0.05cm} o autor propõe um roteiro com etapas a se seguir para migração de sistemas legados, focando em identificar funcionalidades candidatas a serem modularizadas no contexto de microserviços. O autor também faz a aplicação em um teste real deste roteiro.
 \\No trabalho "Modernização de Sistemas Legados Para Disponibilização em Dispositivos Móveis com Arquitetura Baseada em Microservices" o autor propõe uma migração para atender a distribuição e independência de um sistema legado para disponibilização em dispositivos móveis. Para o estudo de caso foi utilizado um sistema acadêmico.
+No artigo "Microservices migration partterns" o autor \cite{Balalaie2018} trás uma série de padrões para a migração. O trabalho parte da premissa de que é necessário escolher fatores mais importantes para a migração, ou seja, o que se deseja atingir com a migração, melhoria de escalabilidade, tolerância a falhas, dinamicidade entre outras. Após a escolha dos fatores, onde cada fator corresponde a um ou mais padrões, tem-se uma combinação e uma sequência de etapas para seguir. Este trabalho também foi aplicado para a migração de um sistema e validado em outras três empresas.
 \\Foi identificado outros trabalhos similares, porém todos eles aplicados a um sistema específico. Neste contexto a migração é mais simples comparada ao cenário que é o foco deste trabalho, onde vários sistemas devem ser afetados pela arquitetura de microserviços.
 %metodologia
 \subsection{Metodologia}
@@ -87,7 +92,7 @@ De acordo com \cite{PERRUNESON2012} em uma pesquisa de estudo de caso, nós esco
  
 \section{Resultados Esperados}
 
-Após os estudos e análises da arquitetura existena no estudo de caso, espera-se a migração de uma aplicação, em todo ou em parte, para microserviços. Em um segundo momento, analisar os efeitos da migração, benefícios e dificuldades encontradas.
+Após os estudos e análises da arquitetura existente no estudo de caso, espera-se a migração de uma aplicação, em todo ou em parte, para microserviços. Em um segundo momento, analisar os efeitos da migração, benefícios e dificuldades encontradas. Um dos riscos citados é a separação da base de dados, portanto será a parte mais crítica da migração
 
 \section{Cronograma de Execução}
 
