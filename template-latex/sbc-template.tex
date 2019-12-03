@@ -22,11 +22,11 @@ Cascavel -- PR -- Brazil
 \maketitle
 
 \begin{abstract}
-Migrating monolithic systems to microservices has been a way for developers to solve old problems faced in the software lifecycle, such as scalability and maintainability. However, it is not simple to identify when these systems should migrate, and what the consequences are. In theory, applying microservices has a number of benefits compared to monolithic systems, especially when it is previously planned and starts development from scratch. In practice, issues like sharing a database, team relocation, infrastructure investment, developer team re-education are no easy task.
+Migrating monolithic systems to microservices has been a way for developers to solve old problems faced in the software lifecycle, such as scalability and maintainability. However, it is not simple to identify when these systems should migrate, and what the consequences are. In theory, applying microservices brings a lot of benefits compared to monolithic systems, especially when it is previously planned and starts development from scratch. In practice, issues like sharing a database, team relocation, infrastructure investment, developer team re-education are no easy task.
 \end{abstract}
      
 \begin{resumo} 
-Migrar sistemas monolíticos para microserviços tem sido uma maneira para desenvolvedores resolverem velhos problemas enfrentados na durante o ciclo de vida de um software, como escalabilidade e manutenibilidade. Porém não é simples identificar quando estes sistemas devem migrar, e quais as consequências disso. Na teoria, aplicar microserviços trás uma série de benefícios se comparado aos sistemas monolíticos, ainda mais quando se planeja previamente e inicia o desenvolvimento do zero. Na prática, questões como dividir uma base de dados, remanejamento de equipe, investimento em infra-estrutura, reeducação da equipe de desenvolvedores, não é tarefa fácil.
+Migrar sistemas monolíticos para microserviços tem sido uma maneira para desenvolvedores resolverem velhos problemas enfrentados durante o ciclo de vida de um software, como escalabilidade e manutenibilidade. Porém não é simples identificar quando estes sistemas devem migrar, e quais as consequências disso. Na teoria, aplicar microserviços traz uma série de benefícios se comparado aos sistemas monolíticos, ainda mais quando se planeja previamente e inicia o desenvolvimento do zero. Na prática, questões como dividir uma base de dados, remanejamento de equipe, investimento em infra-estrutura, reeducação da equipe de desenvolvedores não é tarefa fácil.
 \end{resumo}
 
 {\bf Palavras-chave:} sistemas monolíticos, microserviços, reúso de software, reengenharia, migração, banco de dados, manutenibilidade, escalabilidade.
@@ -49,7 +49,6 @@ O objetivo deste trabalho é verificar como seria a migração de sistemas monol
 %%revisão bibliográfica
 \subsection{Revisão Bibliográfica}
 
-\subsubsection{Problemas comuns em Sistemas Monolíticos} 
 O desenvolvimento de sistemas geralmente segue um padrão onde o desenvolvimento começa pela solução específica de um problema e a partir daí novas soluções podem ser adicionadas, formando um ou mais sistemas maiores e complexos. Com o passar dos anos estes sistemas podem gerar diversos problemas para a equipe de desenvolvedores. Alguns dos principais problemas são:
 %essa parte entra no desenvolvimento
 \begin{itemize}
@@ -67,13 +66,13 @@ Além de resolver os problemas citados acima, a adoção de microsserviços trá
 \\
 \textbf{Diminuição de Custos}: segundo \cite{Taibi}, apesar dos custos iniciais do desenvolvimento com microserviços serem maiores, a longo prazo esse custo é menor, se comparado com sistemas monolíticos, devido a redução, principalmente, de manutenibilidade; 
 \\
-\textbf{Novas tecnologias} pois com serviços independentes, não importa como esse serviço é implementado, portanto é possível escolher diferentes tecnologias que se adequem às necessidades especificas daquela funcionalidade. Isso também se aplica a banco de dados. Não há necessidade de se prender a uma tecnologia \cite{Richter2017a}. 
+\textbf{Novas tecnologias} pois com serviços independentes, não importa como esse serviço é implementado, portanto é possível escolher diferentes tecnologias que se adequem às necessidades especificas daquela funcionalidade e isso também se aplica a banco de dados. Não há necessidade de se prender a uma tecnologia \cite{Richter2017a}. 
 %por no slide tolerancia a falhas como beneficios=confiabilidade.	
 
 
 %banco de dados é um ponto negativo, resistencia a mudanças da equipe, custos iniciais maiores
 \subsubsection{Riscos da Adoção de Microserviços}
-A utilização de microsserviços também trás alguns riscos consideráveis como: lidar com a base de dados é um desafio principalmente em ambientes com serviços críticos. Em um típico sistema monolítico, a base de dados segue esta arquitetura. Quando o foco é microserviços, cada serviço deve ser independente, responsável pelos seus próprios dados para que qualquer mudança não afete o sistema todo \cite{Kholy2019}. Mesmo que uma entidade seja comum a dois ou mais microserviços, ainda assim pode haver diferenças entre elas, o que apoia a necessidade de separação. 
+A utilização de microsserviços também trás alguns riscos consideráveis como: lidar com a base de dados pode ser um desafio principalmente em ambientes com serviços críticos. Em um típico sistema monolítico, a base de dados segue esta arquitetura. Quando o foco é microserviços, cada serviço deve ser independente, responsável pelos seus próprios dados para que qualquer mudança não afete o sistema todo \cite{Kholy2019}. Mesmo que uma entidade seja comum a dois ou mais microserviços, ainda assim pode haver diferenças entre elas, o que apoia a necessidade de separação. 
 \\É comum haver uma resistência em equipes de desenvolvimento, isso ocorre devido a dificuldade em aceitar mudanças, seja de arquitetura e tecnologias, ou ainda a apego ao software desenvolvido \cite{Taibi}. 
 \\Outro risco se refere a custos iniciais maiores, mesmo que a longo prazo seja vantajoso, em um primeiro momento o investimento necessário pode ser uma barreira, pois não só é preciso investimento em infra-estrutura, como também pode ser essencial uma reestruturação na equipe de desenvolvimento \cite{Taibi}.
 
