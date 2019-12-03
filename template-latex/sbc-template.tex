@@ -7,7 +7,7 @@
      
 \sloppy
 
-\title{Migração de Sistemas Monolíticos para Microserviços}
+\title{Migração de Múltiplos Sistemas Monolíticos para Microserviços}
 
 \author{Guilherme L. D. Villaca\inst{1}}
 
@@ -78,7 +78,8 @@ A utilização de microsserviços também trás alguns riscos consideráveis com
 
 \subsubsection{Estratégias para a Migração}
 
-Existem algumas estratégias para a migração de um sistema monolítico para microserviços. Segundo \cite{Taibi} a migração pode ser feita a partir de novas funcionalidades do sistema, ou após a identificação e decomposição do sistema existente, desenvolver cada microserviço praticamente do zero, pois é possível reutilizar códigos e regras de negócio. A abordagem selecionada para este trabalho será a decomposição do sistema existente e desenvolvimento dos microserviços. Uma das dificuldades é manter e testar os dois ambientes (monolítico e microserviço) em paralelo. Uma forma de resolver este problema é utilizar a \textit{feature toggle} de Martin Fowler \cite{Carvalho2019} que alterna entre monolítico e microserviço conforme a necessidade. Dessa forma é possível testar com mais tranquilidade a nova arquitetura. 
+Existem algumas estratégias para a migração de um sistema monolítico para microserviços. Segundo \cite{Taibi} a migração pode ser feita a partir de novas funcionalidades do sistema onde mantem-se o sistema monolítico em funcionamento e apenas novas implementações são feitas com a nova arquitetura em microserviços, outra estratégia é após a identificação e decomposição do sistema existente, desenvolver cada microserviço praticamente do zero, pois é possível reutilizar códigos e regras de negócio. A abordagem selecionada para este trabalho será a decomposição do sistema existente e desenvolvimento dos microserviços a partir do código fonte e regras de negócio existentes. 
+\\Uma das dificuldades é manter e testar os dois ambientes (monolítico e microserviço) em paralelo. Uma forma de resolver este problema é utilizar a \textit{feature toggle} de Martin Fowler \cite{Carvalho2019} que alterna entre monolítico e microserviço conforme a necessidade. Dessa forma é possível testar com mais tranquilidade a nova arquitetura. 
 
 
 \subsection{Trabalhos Relacionados}
