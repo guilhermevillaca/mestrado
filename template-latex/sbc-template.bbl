@@ -13,6 +13,18 @@ Carvalho, L., Garcia, A., Assun{\c{c}}{\~{a}}o, W. K.~G., Bonif{\'{a}}cio, R.,
   systems: An Exploratory Study}.
 \newblock pages 1--6.
 
+\bibitem[da~Silva 2018]{Silva2018}
+da~Silva, H. h. O.~S. (2018).
+\newblock {Um Guia para apoiar a migra{\c{c}}{\~{a}}o de sistemas de software
+  legados para arquitetura baseada em microservi{\c{c}}os}.
+\newblock {\em Universidade Salvador}, 2:227--249.
+
+\bibitem[de~Freitas 2017]{Freitas}
+de~Freitas, B.~C. (2017).
+\newblock {Moderniza{\c{c}}{\~{a}}o de sistemas legados para
+  disponibiliza{\c{c}}{\~{a}}o em dispositivos m{\'{o}}veis com arquitetura
+  baseada em microservices}.
+
 \bibitem[Dragoni et~al. 2017]{Dragoni2017}
 Dragoni, N., Giallorenzo, S., Lafuente, A.~L., Mazzara, M., Montesi, F.,
   Mustafin, R., and Safina, L. (2017).
@@ -62,8 +74,8 @@ Richter, D., Konrad, M., Utecht, K., and Polze, A. (2017).
 Runeson, P., Host, M., Rainer, A., and Regnell, B. (2012).
 \newblock {\em {in Software in Software}}.
 
-\bibitem[Taibi et~al. ]{Taibi}
-Taibi, D., Lenarduzzi, V., and Pahl, C.
+\bibitem[Taibi et~al. 2017]{Taibi}
+Taibi, D., Lenarduzzi, V., and Pahl, C. (2017).
 \newblock {Processes , Motivations , and Issues for Migrating to Microservices
   Architectures : An Empirical Investigation}.
 
@@ -74,8 +86,9 @@ Velmourougan, S., Dhavachelvan, P., Baskaran, R., and Ravikumar, B. (2014).
 \newblock {\em 2014 Fourth International Conference on Advances in Computing
   and Communications}, pages 270--273.
 
-\bibitem[Yang et~al. ]{Yang}
-Yang, X., Chen, L., Wang, X., and Cristoforo, J.
+\bibitem[Yang et~al. 2005]{Yang}
+Yang, X., Chen, L., Wang, X., and Cristoforo, J. (2005).
 \newblock {A Dual-Spiral Reengineering Model for Legacy System}.
+\newblock {\em Tencon 2005 IEEE Region 10}.
 
 \end{thebibliography}

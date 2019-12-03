@@ -36,11 +36,11 @@ Migrar sistemas monolíticos para microserviços tem sido uma maneira para desen
 
 %maintainability ingles para manutenibilidade
 
-A técnica de desenvolvimento de software baseado em reúso é um processo de design que pode resultar em redução de tempo e custos de desenvolvimento além de aumentar a flexibilidade, manutenibilidade e confiabilidade do software. A principal razão para pensar em reúso é evitar trabalhos repetidos no desenvolvimento de software e usar do conhecimento e experiência adquiridos previamente e concentrar os esforços em partes mais críticas da aplicação. Seu foco é não necessitar mais desenvolver um software do zero \cite{Yang}.  
+A técnica de desenvolvimento de software baseado em reúso é um processo de design que pode resultar em redução de tempo e custos de desenvolvimento além de aumentar a flexibilidade, manutenibilidade e confiabilidade do software. A principal razão para pensar em reúso é evitar trabalhos repetidos no desenvolvimento de software, usar do conhecimento e experiência adquiridos previamente e concentrar os esforços em partes mais críticas da aplicação. Seu foco é não necessitar mais desenvolver um software do zero \cite{Yang}.  
 \\
-Reengenharia pode ser uma forma para atingir o reuso de software e para entender os conceitos ocultos no domínio da aplicação. Seu objetivo é obter e manter o conhecimento incluído nos sistemas legados, usando-o como base para a continuidade e evolução estruturada do sistema. O código legado tem lógicas programadas, decisões de projeto, requisitos de usuários e regras de negócio que podem ser recuperadas e reconstruídas sem perder a semântica \cite{Garcia2004a}
+Reengenharia pode ser uma forma para atingir o reúso de software e para entender os conceitos ocultos no domínio da aplicação. Seu objetivo é obter e manter o conhecimento incluído nos sistemas legados, usando-o como base para a continuidade e evolução estruturada do sistema. O código legado tem lógicas programadas, decisões de projeto, requisitos de usuários e regras de negócio que podem ser recuperadas e reconstruídas sem perder a semântica \cite{Garcia2004a}
 \\
-Os sistemas legados são tradicionalmente construídos de forma monolítica, ou seja, um sistema composto por módulos que não são independentes da aplicação a que pertencem \cite{Dragoni2017}. Para resolver as limitações dos sistemas monolíticos, os Microserviços estão sendo amplamente utilizados pela indústria por ser uma técnica que estimula uma melhor modularização e gestão através de serviços menores e autônomos \cite{Carvalho2019}. Ter um sistema mais adaptável a mudanças é a melhor estratégia para modernizar sistemas legados \cite{Kamimura2019a}.
+Os sistemas legados são tradicionalmente construídos de forma monolítica, ou seja, um sistema composto por módulos que não são independentes da aplicação a que pertencem \cite{Dragoni2017}. Para resolver as limitações dos sistemas monolíticos, os microserviços estão sendo amplamente utilizados pela indústria por ser uma técnica que estimula uma melhor modularização e gestão através de serviços menores e autônomos \cite{Carvalho2019}. Ter um sistema mais adaptável a mudanças é a melhor estratégia para modernizar sistemas legados \cite{Kamimura2019a}.
 \\
 O objetivo deste trabalho é verificar como seria a migração de sistemas monolíticos para microserviços em um ambiente com múltiplos sistemas interligados. Em um cenário como esse como deve ocorrer a migração? De uma forma mais gradual e a longo prazo? Somente as pequenas partes interligadas poderiam se tornar microserviços? Apenas novas funcionalidades devem ser desenvolvidas com a nova arquitetura? Desenvolver tudo do zero? Apesar de existir no estado da arte guias e processos para migração, não há uma definição sobre como proceder em um cenário com múltiplos sistemas. 
 
@@ -64,17 +64,17 @@ O desenvolvimento de sistemas geralmente segue um padrão onde o desenvolvimento
 \subsubsection{Benefícios da Adoção de Microserviços}
 Além de resolver os problemas citados acima, a adoção de microsserviços trás alguns outros benefícios como \textbf{delegação de responsabilidades} já que microserviços podem ser desenvolvidos por times de desenvolvedores diferentes e independentes, reduzindo sobrecarga de comunicação e necessidade de coordenação entre as equipes \cite{Taibi}; 
 \\
-\textbf{Diminuição de Custos}: segundo \cite{Taibi}, apesar dos custos iniciais do desenvolvimento com microserviços serem maiores, a longo prazo esse custo é menor, se comparado com sistemas monolíticos, devido a redução, principalmente, de manutenibilidade; 
+Uma considerável \textbf{diminuição de custos} segundo \cite{Taibi}, apesar dos custos iniciais do desenvolvimento com microserviços serem maiores, a longo prazo esse custo é menor, se comparado com sistemas monolíticos, devido a redução, principalmente, de manutenibilidade; 
 \\
-\textbf{Novas tecnologias} pois com serviços independentes, não importa como esse serviço é implementado, portanto é possível escolher diferentes tecnologias que se adequem às necessidades especificas daquela funcionalidade e isso também se aplica a banco de dados. Não há necessidade de se prender a uma tecnologia \cite{Richter2017a}. 
+A adoção de \textbf{novas tecnologias} pois com serviços independentes não importa como esse serviço é implementado, portanto é possível escolher diferentes tecnologias que se adequem às necessidades especificas daquela funcionalidade e isso também se aplica a banco de dados. Não há necessidade de se prender a uma tecnologia \cite{Richter2017a}. 
 %por no slide tolerancia a falhas como beneficios=confiabilidade.	
 
 
 %banco de dados é um ponto negativo, resistencia a mudanças da equipe, custos iniciais maiores
 \subsubsection{Riscos da Adoção de Microserviços}
-A utilização de microsserviços também trás alguns riscos consideráveis como: lidar com a base de dados pode ser um desafio principalmente em ambientes com serviços críticos. Em um típico sistema monolítico, a base de dados segue esta arquitetura. Quando o foco é microserviços, cada serviço deve ser independente, responsável pelos seus próprios dados para que qualquer mudança não afete o sistema todo \cite{Kholy2019}. Mesmo que uma entidade seja comum a dois ou mais microserviços, ainda assim pode haver diferenças entre elas, o que apoia a necessidade de separação. 
-\\É comum haver uma resistência em equipes de desenvolvimento, isso ocorre devido a dificuldade em aceitar mudanças, seja de arquitetura e tecnologias, ou ainda a apego ao software desenvolvido \cite{Taibi}. 
-\\Outro risco se refere a custos iniciais maiores, mesmo que a longo prazo seja vantajoso, em um primeiro momento o investimento necessário pode ser uma barreira, pois não só é preciso investimento em infra-estrutura, como também pode ser essencial uma reestruturação na equipe de desenvolvimento \cite{Taibi}.
+Alguns riscos podem ser considerados na migração para microserviços. Lidar com a \textbf{base de dados} pode ser um desafio principalmente em ambientes com serviços críticos. Em um típico sistema monolítico, a base de dados segue esta arquitetura. Quando o foco é microserviços, cada serviço deve ser independente e responsável pelos seus próprios dados para que qualquer mudança não afete o sistema todo \cite{Kholy2019}. Mesmo que uma entidade seja comum a dois ou mais microserviços, ainda assim pode haver diferenças entre elas, o que apoia a necessidade de separação. 
+\\É comum haver uma \textbf{resistência} em equipes de desenvolvimento, isso ocorre devido a dificuldade em aceitar mudanças, seja de arquitetura e tecnologias, ou ainda a apego ao software desenvolvido \cite{Taibi}. 
+\\Outro risco se refere a \textbf{custos iniciais} maiores, mesmo que a longo prazo seja vantajoso, em um primeiro momento o investimento necessário pode ser uma barreira, pois não só é preciso investimento em infraestrutura, como também pode ser essencial uma reestruturação na equipe de desenvolvimento \cite{Taibi}.
 
 \subsubsection{Estratégias para a Migração}
 
@@ -85,19 +85,20 @@ Existem algumas estratégias para a migração de um sistema monolítico para mi
 \subsection{Trabalhos Relacionados}
 %trabalhos relacionados
 Existem alguns trabalhos que focaram na migração de sistemas monolíticos para microserviços.
-\\Na dissertação "Um Guia Para Apoiar a Migração de Sistemas de Software Legados Para Arquitetura Baseada em Microseviços"\hspace{0.05cm} o autor propõe um roteiro com etapas a se seguir para migração de sistemas legados, focando em identificar funcionalidades candidatas a serem modularizadas no contexto de microserviços. O autor também faz a aplicação em um teste real deste roteiro.
-\\No trabalho "Modernização de Sistemas Legados Para Disponibilização em Dispositivos Móveis com Arquitetura Baseada em Microservices" o autor propõe uma migração para atender a distribuição e independência de um sistema legado para disponibilização em dispositivos móveis. Para o estudo de caso foi utilizado um sistema acadêmico.
-No artigo "Microservices migration partterns" o autor \cite{Balalaie2018} trás uma série de padrões para a migração. O trabalho parte da premissa de que é necessário escolher fatores mais importantes para a migração, ou seja, o que se deseja atingir com a migração, melhoria de escalabilidade, tolerância a falhas, dinamicidade entre outras. Após a escolha dos fatores, onde cada fator corresponde a um ou mais padrões, tem-se uma combinação e uma sequência de etapas para seguir. Este trabalho também foi aplicado para a migração de um sistema e validado em outras três empresas.
-\\Foi identificado outros trabalhos similares, porém todos eles aplicados a um sistema específico. Neste contexto a migração é mais simples comparada ao cenário que é o foco deste trabalho, onde vários sistemas devem ser afetados pela arquitetura de microserviços.
+\\Na dissertação "Um Guia Para Apoiar a Migração de Sistemas de Software Legados Para Arquitetura Baseada em Microseviços"\hspace{0.05cm} \cite{Silva2018} propõe um roteiro com etapas a se seguir para migração de sistemas legados, focando em identificar funcionalidades candidatas a serem modularizadas no contexto de microserviços. O autor também faz a aplicação em um teste real deste roteiro.
+\\No trabalho "Modernização de Sistemas Legados Para Disponibilização em Dispositivos Móveis com Arquitetura Baseada em Microservices"\hspace{0.05cm} \cite{Freitas} propõe uma migração para atender a distribuição e independência de um sistema legado para disponibilização em dispositivos móveis. Para o estudo de caso foi utilizado um sistema acadêmico.
+\\No artigo "Microservices migration partterns" o autor \cite{Balalaie2018} trás uma série de padrões para a migração. O trabalho parte da premissa de que é necessário escolher fatores mais importantes para a migração, ou seja, o que se deseja atingir com a migração, melhoria de escalabilidade, tolerância a falhas, dinamicidade entre outras. Após a escolha dos fatores, onde cada fator corresponde a um ou mais padrões, tem-se uma combinação e uma sequência de etapas para seguir. Este trabalho foi aplicado para a migração de um sistema e validado em outras três empresas.
+\\Foi identificado outros trabalhos similares, porém todos eles aplicados a um sistema específico. Neste contexto a migração é mais simples comparada ao cenário que é o foco deste trabalho, onde vários sistemas podem ser afetados pela arquitetura de microserviços.
 %metodologia
 \subsection{Metodologia}
-De acordo com \cite{PERRUNESON2012} em uma pesquisa de estudo de caso, nós escolhemos estudar um fenômeno que ocorre em um ambiente da vida real. Nossa "unidade de análise"\hspace{0.05cm} pode ser algum aspecto de um projeto de engenharia de software, uma metodologia de engenharia de software e seu uso dentro de uma organização, o todo ou uma parte específica de um novo projeto em desenvolvimento ou manutenção de um projeto em andamento.
-\\Hoje o Núcleo de Tecnologia da Informação (NTI) da UNIOESTE vivencia um cenário com vários sistemas monolíticos que sofrem por problemas de manutenibilidade, confiabilidade entre outros. O objetivo é analisar a arquitetura existente e propor uma nova arquitetura que atenda aos principais conceitos de Microserviços.
+De acordo com \cite{PERRUNESON2012} em uma pesquisa de estudo de caso, é escolhido estudar um fenômeno que ocorre em um ambiente da vida real. Nossa "unidade de análise"\hspace{0.05cm} pode ser algum aspecto de um projeto de engenharia de software, uma metodologia de engenharia de software e seu uso dentro de uma organização, o todo ou uma parte específica de um novo projeto em desenvolvimento ou manutenção de um projeto em andamento.
+\\Hoje o Núcleo de Tecnologia da Informação (NTI) da UNIOESTE vivencia um cenário com vários sistemas monolíticos que sofrem por problemas de manutenibilidade, confiabilidade, escalabilidade entre outros. O objetivo é analisar a arquitetura existente e propor uma nova arquitetura que atenda aos principais conceitos de microserviços.
 \\Inicialmente fizemos pesquisas em portais de artigos e periódicos para entender como estão os estudos atuais na área, buscamos pelos assuntos: \textit{microservices architecture}, \textit{software reliability}, \textit{reengineering legacy system}, \textit{monolithic system}, \textit{software reuse}, \textit{software maintanability}, \textit{quality of software}.
  
 \section{Resultados Esperados}
 
-Após os estudar e analisar a arquitetura existente cenário alvo deste estudo de caso, espera-se a migração de uma aplicação, em todo ou em parte, para a arquitetura de Microserviços. Em um segundo momento, analisar os efeitos da migração, benefícios e dificuldades encontradas. Um dos riscos citados é a separação da base de dados, portanto pode ser a parte mais crítica da migração.
+Após os estudar e analisar a arquitetura existente no NTI, espera-se a migração de uma aplicação, em todo ou em parte, para a arquitetura de microserviços. Em um segundo momento, analisar os efeitos da migração, benefícios e dificuldades encontradas para então melhorar o processo, se necessário para que outros sistemas sejam migrados.
+\\ Com este trabalho esperamos contribuir com a comunidade que vivencia a mesma situação, sejam eles analistas, desenvolvedores, CEO's, engenheiros e arquitetos de software.
 
 \section{Cronograma de Execução}
 
@@ -107,7 +108,7 @@ Após os estudar e analisar a arquitetura existente cenário alvo deste estudo d
 	\item Definição da nova arquitetura;
 	\item Decomposição da lógica, definir protocolos de comunicação, frameworks e ferramentas, definição de plano B;
 	\item Decomposição da base de dados;
-	\item Implementação de forma gradual, devido ao sisteme monolítico estar em funcionamento paralelamente;
+	\item Implementação de forma gradual, devido ao sistema monolítico estar em funcionamento paralelamente;
 	\item Análise de possíveis problemas e melhoria do processo.
 	
 \end{enumerate}
