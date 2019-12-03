@@ -42,14 +42,14 @@ Reengenharia pode ser uma forma para atingir o reuso de software e para entender
 \\
 Os sistemas legados são tradicionalmente construídos de forma monolítica, ou seja, um sistema composto por módulos que não são independentes da aplicação a que pertencem \cite{Dragoni2017}. Para resolver as limitações dos sistemas monolíticos, os Microserviços estão sendo amplamente utilizados pela indústria por ser uma técnica que estimula uma melhor modularização e gestão através de serviços menores e autônomos \cite{Carvalho2019}. Ter um sistema mais adaptável a mudanças é a melhor estratégia para modernizar sistemas legados \cite{Kamimura2019a}.
 \\
-O objetivo deste trabalho é verificar como seria a migração de sistemas monolíticos para microserviços em um ambiente com múltiplos sistemas interligados. Em um cenário como esse como deve ocorrer a migração? de uma forma mais gradual e a longo prazo? Somente as pequenas partes interligadas poderiam se tornar microserviços? Apenas novas funcionalidades devem ser desenvolvidas com a nova arquitetura? Desenvolver tudo do zero? Apesar de existir no estado da arte guias e processos para migração de sistemas únicos, não há uma definição sobre como proceder em um cenário como este. 
+O objetivo deste trabalho é verificar como seria a migração de sistemas monolíticos para microserviços em um ambiente com múltiplos sistemas interligados. Em um cenário como esse como deve ocorrer a migração? de uma forma mais gradual e a longo prazo? Somente as pequenas partes interligadas poderiam se tornar microserviços? Apenas novas funcionalidades devem ser desenvolvidas com a nova arquitetura? Desenvolver tudo do zero? Apesar de existir no estado da arte guias e processos para migração, não há uma definição sobre como proceder em um cenário com múltiplos sistemas. 
 
 \section{Desenvolvimento} \label{sec:firstpage}
 
 %%revisão bibliográfica
 \subsection{Revisão Bibliográfica}
 
-O desenvolvimento de sistemas pelas organizações geralmente segue um padrão onde o desenvolvimento começa pela solução específica de um problema e a partir daí novas soluções podem ser adicionadas, formando um ou mais sistemas maiores e complexos. Com o passar dos anos estes sistemas podem gerar diversos problemas para a equipe de desenvolvedores. Se a implementação de uma nova funcionalidade ou correção de uma falha tiver qualquer barreira, seja por código mal escrito, complexidade estrutural, rotatividade na equipe onde perde-se conhecimento de domínio, tem-se um dos seguintes problemas:
+O desenvolvimento de sistemas pelas organizações geralmente segue um padrão onde o desenvolvimento começa pela solução específica de um problema e a partir daí novas soluções podem ser adicionadas, formando um ou mais sistemas maiores e complexos. Com o passar dos anos estes sistemas podem gerar diversos problemas para a equipe de desenvolvedores. Alguns dos principais problemas são:
 %essa parte entra no desenvolvimento
 \begin{itemize}
 	\item Manutenibilidade: Que é a capacidade de um software ser modificado. Se um software não for construído com capacidade para lidar com a demanda de constantes mudanças, certamente irá consumir mais recursos e tornar a manutenção uma tarefa tediosa \cite{Velmourougan2014}.
@@ -75,9 +75,9 @@ Um sistema monolítico, geralmente, tem uma base de dados e a recomendação é 
 
 \subsection{Trabalhos Relacionados}
 %trabalhos relacionados
-Existem alguns trabalhos que focaram na migração de sistemas monolíticos pra microserviços.
-\\Na dissertação "Um guia para apoiar a migração de sistemas de software legados para arquitetura baseada em microseviços"\hspace{0.05cm} o autor propõe um roteiro com etapas a se seguir para migração de sistemas legados, focando em identificar funcionalidades candidatas a serem modularizadas no contexto de microserviços. O autor também faz a aplicação em um teste real deste roteiro.
-\\No trabalho "Modernização de sistemas legados para disponibilização em dispositivos móveis com arquitetura baseada em Microservices" o autor propõe uma migração para atender a distribuição e independência de um sistema legado para disponibilização em dispositivos móveis. Para o estudo de caso foi utilizado um sistema acadêmico.
+Existem alguns trabalhos que focaram na migração de sistemas monolíticos para microserviços.
+\\Na dissertação "Um Guia Para Apoiar a Migração de Sistemas de Software Legados Para Arquitetura Baseada em Microseviços"\hspace{0.05cm} o autor propõe um roteiro com etapas a se seguir para migração de sistemas legados, focando em identificar funcionalidades candidatas a serem modularizadas no contexto de microserviços. O autor também faz a aplicação em um teste real deste roteiro.
+\\No trabalho "Modernização de Sistemas Legados Para Disponibilização em Dispositivos Móveis com Arquitetura Baseada em Microservices" o autor propõe uma migração para atender a distribuição e independência de um sistema legado para disponibilização em dispositivos móveis. Para o estudo de caso foi utilizado um sistema acadêmico.
 \\Foi identificado outros trabalhos similares, porém todos eles aplicados a um sistema específico. Neste contexto a migração é mais simples comparada ao cenário que é o foco deste trabalho, onde vários sistemas devem ser afetados pela arquitetura de microserviços.
 %metodologia
 \subsection{Metodologia}
